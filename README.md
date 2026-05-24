@@ -1,8 +1,7 @@
 # TurnContinuity-Classifier
 
 ## 專案簡介
-這個專案是一個二元分類模型，用來預測語音片段是否為 **完整 (Complete, 1)** 或 **不完整 (Incomplete, 0)**。  
-此專案為課程 515512 的 HW3 Part 2 作業，目標是處理語音 turn 資料並訓練模型進行分類。
+這個專案是一個二元分類模型，用來預測語音片段是不是 **完整 (Complete, 1)** 或 **不完整 (Incomplete, 0)**。  
 
 ---
 
@@ -20,8 +19,3 @@
 - **模型**：XGBoost、基於 Transformer 的分類模型  
 
 ---
-
-## 使用方式
-1. 安裝套件：
-```bash
-pip install -r requirements.txt
